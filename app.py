@@ -40,7 +40,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 with st.sidebar:
-    st.markdown("## 📊 Business Insights")
+    st.markdown("## Analytics")
     st.caption("Εργαλείο διερευνητικής ανάλυσης επιχειρηματικών δεδομένων")
     st.divider()
     st.markdown("**Υποστηριζόμενα αρχεία**")
@@ -281,6 +281,6 @@ for item in advice:
 st.caption("Οι προτάσεις είναι ενδείξεις για περαιτέρω διερεύνηση και δεν αντικαθιστούν την επιχειρηματική κρίση.")
 
 pdf_bytes = make_pdf(df, product_col, sales_col, quantity_col, date_col, summary, advice, grouped)
-st.download_button("⬇️ Λήψη αναφοράς PDF", data=pdf_bytes,
+st.download_button(" Λήψη αναφοράς PDF", data=pdf_bytes,
                    file_name=f"anafora_epixeirimatikon_dedomenon_{datetime.now().strftime('%Y%m%d')}.pdf",
                    mime="application/pdf", type="primary")
