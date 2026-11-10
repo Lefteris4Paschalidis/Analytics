@@ -1,0 +1,19 @@
+
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local configuration and secrets
+.env
+.streamlit/secrets.toml
+
+# Local data and generated reports
+data/
+*.pdf
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
