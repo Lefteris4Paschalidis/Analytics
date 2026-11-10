@@ -24,8 +24,7 @@ from reportlab.platypus import (
 
 
 st.set_page_config(
-    page_title="Business Insights | Ανάλυση δεδομένων",
-    page_icon="📊",
+    page_title="Analytics | Ανάλυση δεδομένων",
     layout="wide",
     initial_sidebar_state="expanded",
 )
